@@ -1,0 +1,50 @@
+# # # # # ALIASES # # # # #
+
+#-------------Directories------------------#
+
+alias home='cd ~'
+alias docs='cd ~/Documents'
+alias code='cd ~/Documents/code'
+alias cdo="cd \"\$OLDPWD\""
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias l='ls -lah'
+alias lookfor='find . -name'
+
+#--------------APT-----------------#
+
+alias sagi='sudo apt-get install'
+alias sai='sudo apt install'
+alias agi='apt-get install'
+alias sag='sudo apt-get'
+alias acs='apt-cache search'
+alias update='sag update && sag upgrade'
+alias aptls='apt list --installed'
+alias aptprg='sudo apt purge'
+
+#---------------TMUX----------------#
+
+alias tmuxa='tmux attach -t'
+alias tmuxs='tmux new -s'
+alias tmuxl='tmux list-sessions'
+alias tmuxk='tmux kill-session -t'
+
+#--------------Meteor--------------#
+
+alias kmeteor='kill -9 `ps ax | grep node | grep meteor | awk '{print $1}'`'
+
+#--------------xClip----------------#
+
+alias c='xclip'
+alias v='xclip -o'
+alias cpwd='pwd | c'
+
+#-------------------------------#
+
+alias svim='sudo vim'
+alias sauce='source ~/.zshrc'
+alias siftop='sudo iftop'
+
+
+# # # # # ALIASES # # # # #
